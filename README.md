@@ -100,48 +100,28 @@ Bash
     This will start the React development server, and you can interact with the dApp at http://localhost:3000.
 
 ## Project Structure
-Bash
-
+```bash
 ├── contracts
-
 │   └── TodoList.sol         # Solidity smart contract for the to-do list
-
 ├── frontend
-
     ├── public
-
     ├── src
-
     │   ├── components
-
     │   │   └── TodoList.js      # Main React component
-
     │   ├── contracts
-
     │   │   └── TodoList.json    # ABI of the deployed smart contract
-
     │   ├── App.css              #to style the project
-
     │   ├── pinata.js            # Pinata API integration code
-
     │   ├── App.js               # Main App component
-
     │   ├── index.js             # Entry point for the React app
-
     │   ├── TodoList.css         # CSS for the UI
-
     │   └── ...                  # Other files
-
     ├── scripts
-
     │   └── deploy.js            # Script to deploy the smart contract
-
     ├── .env                     # Environment variables (Pinata API keys)
-
     ├── package.json
-
     └── README.md
-
+```
 ## Usage
 Open the app in your browser at http://localhost:3000/.
 
